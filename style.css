@@ -1,21 +1,21 @@
-#test {
+.bold {
     border: solid #374B43 4px;
-    width: 200px;
-    height: 200px;
-    
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
 }
-#test2 {
-    border: solid #9AB0A7 4px;
-    width: 200px;
-    height: 200px;
-    
+.light {
+    border: solid #888a89 4px;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
 }
 ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #333;
+background-color:#374B43;
 width: 100%;
 position: fixed;
 }
@@ -33,6 +33,7 @@ padding-bottom: 20px;
 width: 32vw;
 text-decoration: none;
 font-size: larger;
+font-family: 'Lato', sans-serif;
 }
 
 li a:hover {
@@ -43,4 +44,19 @@ background-color: #111;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    object-fit: contain;
+    
+}
+
+.doublegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 10px;
+}
+
+
+body {
+    background-color: #9AB0A7;
+    font-family: 'Lato', sans-serif;
 }
