@@ -48,6 +48,7 @@ background-color: #111;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     object-fit: contain;
+    gap: 15px;
     
 }
 
@@ -60,7 +61,7 @@ background-color: #111;
 
 
 body {
-    background-color: #9AB0A7;
+    background-color: #bed4cb;
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
@@ -72,4 +73,25 @@ p {
 #aboutmain{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.centered{
+    text-align: center;
+    width: 70vw;
+    margin-left: 15vw;
+    font-size: x-large;
+    
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    object-fit: contain;
+    
+}
+
+.bgtext{
+    background-color:#9dc5b4;
+    border-radius: 0.7rem;
 }
