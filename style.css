@@ -79,7 +79,7 @@ p {
     text-align: center;
     width: 70vw;
     margin-left: 15vw;
-    font-size: x-large;
+    font-size: xx-large;
     
 }
 
@@ -94,4 +94,5 @@ p {
 .bgtext{
     background-color:#9dc5b4;
     border-radius: 0.7rem;
+    box-shadow: #111;
 }
