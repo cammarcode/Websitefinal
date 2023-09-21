@@ -129,3 +129,19 @@ p {
 embed{
     margin-bottom: 35px;
 }
+
+#repl {
+    background-color: #7c7c7c;
+    border-radius: 0.7rem;
+    box-shadow: #111;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: xx-large;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin-left: 30vw;
+    margin-right: 30vw;
+
+}
